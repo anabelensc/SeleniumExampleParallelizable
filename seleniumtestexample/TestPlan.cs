@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace seleniumtestexample
 {
-    /*
+
     [TestFixture]
     [Parallelizable]
     public class ChromeTesting : DriverBase
@@ -27,7 +27,7 @@ namespace seleniumtestexample
             Assert.That(_driver.PageSource.Contains(parameters["word"]), Is.EqualTo(true), "Fail doest not exist");
 
         }
-    }*/
+    }
 
     [TestFixture]
     [Parallelizable]
